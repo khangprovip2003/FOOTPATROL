@@ -1,0 +1,115 @@
+/* Global overrides */
+
+.btn {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;  /* Rounded corners for buttons */
+    transition: all 0.3s ease;
+    font-weight: 600; /* Bold font for buttons */
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Modern gradient for primary color */
+
+.btn-primary, .btn-success {
+    background: linear-gradient(135deg, #28a89a, #36c4c8);
+    border: none;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background: linear-gradient(135deg, #1e8b81, #2db4b8);
+}
+
+/* Table styling */
+
+.table-wrapper {
+    border-radius: 10px;
+    overflow: hidden; /* To ensure rounded corners for table inside */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+    background: linear-gradient(135deg, #28a89a, #36c4c8);
+    padding: 15px 20px;
+}
+
+.table-title h2 {
+    margin: 0;
+    color: white;
+    font-weight: 600; /* Bold font for table title */
+}
+
+.table-striped tbody tr:hover {
+    background-color: #f2fcfc;
+    transform: scale(1.01); /* Slight scaling for hover effect */
+}
+
+/* Modal styling */
+
+.modal-content {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.modal-title {
+    color: #28a89a;
+    font-weight: 600; /* Bold font for modal title */
+}
+
+.close {
+    font-size: 24px;
+    color: #28a89a;
+    opacity: 0.7;
+}
+
+.close:hover {
+    color: #1e8b81;
+}
+
+/* Checkbox custom styling */
+
+.custom-checkbox label {
+    position: relative;
+    cursor: pointer;
+}
+
+.custom-checkbox label::before, 
+.custom-checkbox label::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;  /* Circular checkbox */
+    transition: all 0.3s ease;
+}
+
+.custom-checkbox label::before {
+    border: 2px solid #28a89a;
+}
+
+.custom-checkbox input[type="checkbox"]:checked + label::after {
+    background-color: #28a89a;
+    border-radius: 50%;  /* Circular checkbox */
+    width: 10px;
+    height: 10px;
+    left: 4px;
+    top: 4px;
+}
+
+/* Icon styling */
+
+.material-icons {
+    color: #28a89a;
+    transition: all 0.3s ease;
+}
+
+.material-icons:hover {
+    color: #1e8b81;
+    transform: scale(1.1);  /* Icon scaling on hover */
+}
+

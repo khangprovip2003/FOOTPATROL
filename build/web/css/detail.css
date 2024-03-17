@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 18, 2023, 11:44:24 PM
+    Author     : Admin
+*/
+
+
+.py-5 {
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+    color: white;
+    padding: 5rem 0; /* This is already implied by Bootstrap's 'py-5', just here for clarity */
+}
+
+.container1 {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight transparency for a frosted glass effect */
+    border-radius: 8px;
+    padding: 2rem;
+}
+
+.small {
+    color: #FFFFFF; /* Bright white for contrast */
+    font-size: 1rem; /* Making it a standard size */
+    letter-spacing: 0.5px; /* A touch of letter spacing */
+    margin-bottom: 1rem; /* Space from the next element */
+    padding: 8px 12px; /* Space around the text */
+    background-color: rgba(119, 107, 204, 0.7); /* A semi-transparent version of the darker purple from your gradient */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center the text inside */
+    font-weight: 500; /* Semi-bold font weight */
+    display: inline-block; /* To ensure the div takes up only as much space as the text */
+}
+
+
+.display-5.fw-bolder {
+    color: #FFD700; /* Gold color */
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* To enhance readability against the background */
+    margin-bottom: 1rem;
+}
+
+
+.fs-5 span.text-decoration-line-through {
+    color: #FF7F7F; /* Reddish tint to indicate price drop */
+}
+
+.fs-5 span {
+    font-size: 1.8rem;
+    margin-left: 1rem;
+    color: #FFFFFF;
+}
+
+.description .lead {
+    font-size: 1.2rem;
+    color: #EDEBFF; /* Again, a lighter shade for the description for variety and readability */
+    margin-bottom: 1.5rem;
+}

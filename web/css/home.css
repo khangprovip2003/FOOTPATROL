@@ -1,0 +1,177 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Oct 18, 2023, 11:41:46 PM
+    Author     : Admin
+*/
+
+.bg-dark {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+}
+section{
+    background:#F8F2ED;
+}
+
+/* BRAN*/
+.col-md-3.mb-5 {
+    background-color: #EDE4D9;  /* Một tông màu beige nhẹ và ấm hơn một chút so với nền chính */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.col-md-3.mb-5 h3 {
+    color: #B2A59B;  /* Màu nâu nhạt để tạo độ tương phản nhẹ */
+    margin-bottom: 20px;
+}
+
+.list-group-item {
+    background-color: #D7CCC8;  /* Một tông màu beige nhạt khác */
+    transition: background-color 0.3s;
+}
+
+.list-group-item.active,
+.list-group-item:hover {
+    background-color: #A89B91;  /* Màu nâu đậm hơn khi di chuột qua hoặc kích hoạt */
+}
+
+.list-group-item a {
+    color: #5D4E46;  /* Màu nâu tối để tạo độ tương phản với nền */
+    text-decoration: none;
+}
+/* SPAN của sản phẩm */
+.product-id {
+    display: block;
+    background-color: #555;   /* Màu nền xám nhạt hơn */
+    color: #f2f2f2;           /* Màu chữ nhạt hơn */
+    padding: 8px 12px;        /* Tăng padding để tạo khoảng trống */
+    border-radius: 8px;       /* Góc bo tròn hơn */
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #777;   /* Viền mảnh xám */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bóng đổ mềm hơn */
+    transition: 0.3s;         /* Hiệu ứng chuyển động mượt mà */
+}
+
+.product-id:hover {
+    background-color: #666;  /* Màu nền sáng hơn khi di chuột qua */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Bóng đổ to hơn khi di chuột qua */
+}
+/* Page Links */
+nav[aria-label="Page navigation example"] {
+    margin-top: 20px;
+}
+.pagination .page-link {
+    color: #8a8a8a; /* Màu xám trung tính cho các liên kết */
+    padding: 8px 12px;
+    background-color: #f7f7f7; /* Màu nền nhẹ cho các liên kết */
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px; /* Góc bo tròn */
+}
+
+.pagination .page-link:hover {
+    color: #fff;
+    background-color: #3498db; /* Màu xanh dương khi di chuột qua */
+    text-decoration: none;
+}
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #5DADE2; /* Màu xanh dương sáng và tươi mát */
+}
+
+/* Product details */
+/* */
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.badge.bg-dark {
+    background-color: #B38686;
+}
+
+.card-img-top {
+    border-radius: 5px 5px 0 0;
+    transition: transform 0.3s;
+}
+
+.card-body, .btn.btn-outline-dark {
+    text-align: center;
+    background-color: #FAF7F2;
+}
+
+.card-body {
+    color: #5D4E46;
+}
+
+.bi-star-fill {
+    color: #FF8C00; /* Màu cam đậm */
+}
+
+
+.fw-bolder {
+    color: #5D4E46; /* Màu nâu đậm */
+}
+.text-muted {
+    color: #A89B91;
+    text-decoration: line-through;
+}
+
+.btn.btn-outline-dark {
+    border-color: #5D4E46;
+    color: #5D4E46;
+    transition: 0.3s;
+}
+
+.btn.btn-outline-dark:hover {
+    background-color: #5D4E46;
+    color: #FAF7F2;
+}
+
+.card-footer {
+    padding-top: 0;
+    border-top: none;
+}
+
+/* Giá trước khi cập nhật (giá gạch ngang) */
+.text-muted.text-decoration-line-through {
+    font-size: 14px;             /* Giảm kích thước chữ lại một chút */
+    color: #FF0000;             /* Màu đỏ */
+    margin-right: 10px;         /* Khoảng cách giữa giá cũ và giá mới */
+    display: inline-block;      /* Giúp khoảng cách margin được áp dụng */
+}
+
+/* Giá sau khi cập nhật */
+.card-body .text-center > span:last-child {
+    font-size: 32px;            /* Tăng kích thước chữ để giá mới to và nổi bật hơn */
+    font-weight: bold;          /* Đặt chữ đậm */
+    color: #333;                /* Màu đen nhạt, bạn có thể điều chỉnh nếu muốn màu khác */
+}
+/* ADD TO CART */
+#newin{
+    font-family: 'Times New Roman', Times, serif;  /* A more decorative font for headers, but replaceable. */
+    color: #6B5840;  /* A darker shade that complements the background. */
+    background-color: rgba(255, 255, 255, 0.8);  /* A semi-transparent white background for a bit of pop. */
+    padding: 10px 20px;  /* Padding for spacing inside the header. */
+    border-radius: 8px;  /* Rounded corners for a softer look. */
+    border: 2px solid #D9CAB3;  /* A subtle border for distinction. */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);  /* A light shadow for depth. */
+    display: inline-block;  /* So the background color and border only wraps the text and not the full width. */
+    margin: 0;  /* Resetting any default margin on h3. */
+}
+#titlehi{
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+
+    animation: animate 3s linear infinite;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}

@@ -1,0 +1,174 @@
+
+label {
+    width: 100%;
+    display: inline-block;
+    padding:0px 0px 5px 5px;
+    margin-top: 20px;
+    font-size:18px;
+    color: #3e444a;
+}
+.login-card {
+    width: 450px;
+    background: rgba(255, 255, 255, .6); /* Tăng độ mờ */
+    padding: 4rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15); /* Thêm hiệu ứng bóng */
+}
+
+.login-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(255, 255, 255, .2); /* Tăng độ mờ */
+    transform: rotate(-6deg);
+    border-radius: 10px;
+    z-index: -1;
+}
+.login-card h1, .form-signin h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#logreg-forms {
+    background: rgba(255, 255, 255, .6); /* Tăng độ mờ */
+}
+
+.login-card button, .form-signin button {
+    border-radius: 100px;
+    transition: transform 0.2s; /* Hiệu ứng chuyển động */
+}
+
+.login-card button:hover, .form-signin button:hover {
+    transform: scale(1.05); /* Hiệu ứng phóng to khi di chuột qua */
+}
+
+.form-control {
+    background: rgba(255, 255, 255, .4); /* Tăng độ mờ */
+    font-family: 'Arial', sans-serif; /* Thay đổi font chữ */
+    border: none;
+    border-radius: 5px;
+    transition: background 0.2s; /* Hiệu ứng chuyển động */
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, .6); /* Màu nền khi focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); /* Thêm bóng khi focus */
+}
+
+.custom-heading {
+    font-size: 2.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2a2a2a;
+}
+
+.custom-text {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #888;
+    margin-top: 1.5rem;
+}
+
+.info {
+    margin-bottom:50px;
+}
+.info p {
+    text-align:center;
+    color: #fff;
+    text-transform:none;
+    font-weight:500;
+    font-size:17px;
+    margin-top:2px
+}
+
+.info i {
+    color:#F31131;
+}
+.clearfix {
+    clear:both;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+h1 {
+    text-align:center;
+    color: #fff;
+    text-shadow: 1px 1px 0px #222;
+    margin:50px 0px 0px 0px;
+    font-size:32px;
+    font-weight:500;
+}
+.header-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Đặt hình ảnh và tiêu đề theo hướng dọc */
+    gap: 10px; /* khoảng cách giữa hình ảnh và tiêu đề */
+}
+
+.login-logo {
+    width: 150px; /* hoặc bất kỳ kích thước nào bạn muốn */
+    height: auto; /* giữ nguyên tỷ lệ chiều dài/rộng của hình ảnh */
+}
+/* Chung cho tất cả các button */
+/* Chung cho tất cả các button */
+.btn {
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 10px 10px;
+    font-size: 15px;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+    outline: none;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.12);
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.08);
+}
+
+/* Nút "Sign in" */
+.btn-success {
+    background-color: #F0F0F0; /* Màu xám rất nhẹ */
+    border: none;
+    color: #333;
+}
+
+.btn-success:hover {
+    background-color: #E5E5E5;
+}
+
+/* Nút "Change Password" */
+.btn-change {
+    background-color: #E0E0E0; /* Màu xám nhạt */
+    border: none;
+    color: #555;
+}
+
+.btn-change:hover {
+    background-color: #D5D5D5;
+}
+
+/* Nút "Sign Up" */
+.btn-primary {
+    background-color: #da7171;
+    border: none;
+    color: #f4f4f4;
+}
+
+.btn-primary:hover {
+    background-color: #C5C5C5;
+}
