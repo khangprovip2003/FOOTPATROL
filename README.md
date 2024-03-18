@@ -5,8 +5,8 @@
 
 - Responsibilities:
 
-+) Designed the database schema for FOOTPATROL.
+    +) Designed the database schema for FOOTPATROL.
   
-+) Implemented the business logic of the application.
+    +) Implemented the business logic of the application.
 
-+) Developed and optimized the application's features and user interface.
+    +) Developed and optimized the application's features and user interface.
