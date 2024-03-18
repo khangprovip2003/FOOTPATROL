@@ -3,7 +3,8 @@
 
 - Technologies : Java Servlet, SQL Server, HTML/CSS, JavaScript, Bootstrap, Ajax.
 
-- Responsibilities: 
+- Responsibilities:
+
 +) Designed the database schema for FOOTPATROL.
   
 +) Implemented the business logic of the application.
